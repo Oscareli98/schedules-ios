@@ -1,0 +1,3 @@
+[submodule "frameworks/CSStickyHeaderFlowLayout"]
+	path = frameworks/CSStickyHeaderFlowLayout
+	url = https://github.com/jamztang/CSStickyHeaderFlowLayout.git
