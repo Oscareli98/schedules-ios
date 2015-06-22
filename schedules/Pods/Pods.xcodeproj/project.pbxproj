@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14BE2B448C91D2C8A27F3E71 /* Pods-schedules-CSStickyHeaderFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 364F768385682D4E308650D7 /* Pods-schedules-CSStickyHeaderFlowLayout-dummy.m */; };
+		1598BA8FF72F7F5D693719A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4BDAE939138218431A6605 /* Foundation.framework */; };
+		171BA855C03A32ECC5802AD7 /* Pods-schedules-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B0E8CD58BE26AF4B9DD16A /* Pods-schedules-dummy.m */; };
+		17206496CBFA51968468D032 /* CSStickyHeaderFlowLayoutAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = E6591E0A9BC05BC4F281CDE5 /* CSStickyHeaderFlowLayoutAttributes.h */; };
+		1ED785FB6041EBF625844E80 /* CSStickyHeaderFlowLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 52392CEAEAAE9A9866C626C5 /* CSStickyHeaderFlowLayoutAttributes.m */; };
+		7CEC1DD317824097266BCA0F /* CSStickyHeaderFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8E7250DA885CB5B218B0DD /* CSStickyHeaderFlowLayout.h */; };
+		BD75BF2BC21E07335E6BD8A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4BDAE939138218431A6605 /* Foundation.framework */; };
+		FBABBB5749A3E450A39EF420 /* CSStickyHeaderFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB7CA49D3B98C145C0DA44 /* CSStickyHeaderFlowLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D96046D8A3A55A7C5C2CB791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BBE6C9E59B72441CE43D418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AF1967A57EFF119C8C3028B;
+			remoteInfo = "Pods-schedules-CSStickyHeaderFlowLayout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		234497CC307BDEF5DB53D759 /* libPods-schedules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-schedules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		364F768385682D4E308650D7 /* Pods-schedules-CSStickyHeaderFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-schedules-CSStickyHeaderFlowLayout-dummy.m"; sourceTree = "<group>"; };
+		38B0E8CD58BE26AF4B9DD16A /* Pods-schedules-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-schedules-dummy.m"; sourceTree = "<group>"; };
+		3A4836460664F57065ACCF06 /* Pods-schedules-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-schedules-acknowledgements.plist"; sourceTree = "<group>"; };
+		52392CEAEAAE9A9866C626C5 /* CSStickyHeaderFlowLayoutAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSStickyHeaderFlowLayoutAttributes.m; path = Classes/CSStickyHeaderFlowLayoutAttributes.m; sourceTree = "<group>"; };
+		64F199D1D19B45F4F65827E1 /* libPods-schedules-CSStickyHeaderFlowLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-schedules-CSStickyHeaderFlowLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E642E2DFCDFB475ECE1CDD3 /* Pods-schedules-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-schedules-resources.sh"; sourceTree = "<group>"; };
+		7792925D0488ACD96E7690FF /* Pods-schedules-CSStickyHeaderFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-schedules-CSStickyHeaderFlowLayout-prefix.pch"; sourceTree = "<group>"; };
+		7A4BDAE939138218431A6605 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		868E80B99D671728FA2A7723 /* Pods-schedules.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-schedules.release.xcconfig"; sourceTree = "<group>"; };
+		8CFB7CA49D3B98C145C0DA44 /* CSStickyHeaderFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSStickyHeaderFlowLayout.m; path = Classes/CSStickyHeaderFlowLayout.m; sourceTree = "<group>"; };
+		8D267B006F2830CF8D8F40ED /* Pods-schedules-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-schedules-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF8E7250DA885CB5B218B0DD /* CSStickyHeaderFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSStickyHeaderFlowLayout.h; path = Classes/CSStickyHeaderFlowLayout.h; sourceTree = "<group>"; };
+		C6F007561C95BEAAE3DB7D44 /* Pods-schedules.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-schedules.debug.xcconfig"; sourceTree = "<group>"; };
+		D229FFB4E7F037D98BE746E2 /* Pods-schedules-CSStickyHeaderFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-schedules-CSStickyHeaderFlowLayout.xcconfig"; sourceTree = "<group>"; };
+		D9517B69581B737830DE8B7F /* Pods-schedules-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-schedules-environment.h"; sourceTree = "<group>"; };
+		DF2562F2F9F10F2F191285DD /* Pods-schedules-CSStickyHeaderFlowLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-schedules-CSStickyHeaderFlowLayout-Private.xcconfig"; sourceTree = "<group>"; };
+		E4CFCC90719769D2AE23BE2B /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E6591E0A9BC05BC4F281CDE5 /* CSStickyHeaderFlowLayoutAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSStickyHeaderFlowLayoutAttributes.h; path = Classes/CSStickyHeaderFlowLayoutAttributes.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C5B3B8147FDF57C6D639614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD75BF2BC21E07335E6BD8A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D96C56E60EC03C7075DD780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1598BA8FF72F7F5D693719A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E3D434CF846BE6C767E36B6 /* Pods-schedules */ = {
+			isa = PBXGroup;
+			children = (
+				8D267B006F2830CF8D8F40ED /* Pods-schedules-acknowledgements.markdown */,
+				3A4836460664F57065ACCF06 /* Pods-schedules-acknowledgements.plist */,
+				38B0E8CD58BE26AF4B9DD16A /* Pods-schedules-dummy.m */,
+				D9517B69581B737830DE8B7F /* Pods-schedules-environment.h */,
+				6E642E2DFCDFB475ECE1CDD3 /* Pods-schedules-resources.sh */,
+				C6F007561C95BEAAE3DB7D44 /* Pods-schedules.debug.xcconfig */,
+				868E80B99D671728FA2A7723 /* Pods-schedules.release.xcconfig */,
+			);
+			name = "Pods-schedules";
+			path = "Target Support Files/Pods-schedules";
+			sourceTree = "<group>";
+		};
+		28F8256CE43B56235F1D7D75 /* CSStickyHeaderFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				BF8E7250DA885CB5B218B0DD /* CSStickyHeaderFlowLayout.h */,
+				8CFB7CA49D3B98C145C0DA44 /* CSStickyHeaderFlowLayout.m */,
+				E6591E0A9BC05BC4F281CDE5 /* CSStickyHeaderFlowLayoutAttributes.h */,
+				52392CEAEAAE9A9866C626C5 /* CSStickyHeaderFlowLayoutAttributes.m */,
+				57008789C811A79ED082D5F0 /* Support Files */,
+			);
+			path = CSStickyHeaderFlowLayout;
+			sourceTree = "<group>";
+		};
+		2D95E59B4B1314F1ECC2734E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				234497CC307BDEF5DB53D759 /* libPods-schedules.a */,
+				64F199D1D19B45F4F65827E1 /* libPods-schedules-CSStickyHeaderFlowLayout.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40CAB972385335D1CBE1C850 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7A4BDAE939138218431A6605 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		46B7E670CDC8CDB8F79A8045 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E3D434CF846BE6C767E36B6 /* Pods-schedules */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		57008789C811A79ED082D5F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D229FFB4E7F037D98BE746E2 /* Pods-schedules-CSStickyHeaderFlowLayout.xcconfig */,
+				DF2562F2F9F10F2F191285DD /* Pods-schedules-CSStickyHeaderFlowLayout-Private.xcconfig */,
+				364F768385682D4E308650D7 /* Pods-schedules-CSStickyHeaderFlowLayout-dummy.m */,
+				7792925D0488ACD96E7690FF /* Pods-schedules-CSStickyHeaderFlowLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-schedules-CSStickyHeaderFlowLayout";
+			sourceTree = "<group>";
+		};
+		AAC688ED38FCA6F68CE47612 = {
+			isa = PBXGroup;
+			children = (
+				E4CFCC90719769D2AE23BE2B /* Podfile */,
+				ABD8705C49FABCA4EEC003E4 /* Frameworks */,
+				F379CA0211D2929FB93D6BCC /* Pods */,
+				2D95E59B4B1314F1ECC2734E /* Products */,
+				46B7E670CDC8CDB8F79A8045 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ABD8705C49FABCA4EEC003E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40CAB972385335D1CBE1C850 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F379CA0211D2929FB93D6BCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28F8256CE43B56235F1D7D75 /* CSStickyHeaderFlowLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14CC05B101618FAB0D033060 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEC1DD317824097266BCA0F /* CSStickyHeaderFlowLayout.h in Headers */,
+				17206496CBFA51968468D032 /* CSStickyHeaderFlowLayoutAttributes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2796A800A6780D3FFAF4393D /* Pods-schedules */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F7299F88F2D8A1914CAC0F4 /* Build configuration list for PBXNativeTarget "Pods-schedules" */;
+			buildPhases = (
+				3F75CD6C0716E64D9E405F43 /* Sources */,
+				1C5B3B8147FDF57C6D639614 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				762333672C2D419F007CE2EF /* PBXTargetDependency */,
+			);
+			name = "Pods-schedules";
+			productName = "Pods-schedules";
+			productReference = 234497CC307BDEF5DB53D759 /* libPods-schedules.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2AF1967A57EFF119C8C3028B /* Pods-schedules-CSStickyHeaderFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0208ED3B154C2D34F0AB6DB7 /* Build configuration list for PBXNativeTarget "Pods-schedules-CSStickyHeaderFlowLayout" */;
+			buildPhases = (
+				E15171A4ACB78FC086296A07 /* Sources */,
+				9D96C56E60EC03C7075DD780 /* Frameworks */,
+				14CC05B101618FAB0D033060 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-schedules-CSStickyHeaderFlowLayout";
+			productName = "Pods-schedules-CSStickyHeaderFlowLayout";
+			productReference = 64F199D1D19B45F4F65827E1 /* libPods-schedules-CSStickyHeaderFlowLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BBE6C9E59B72441CE43D418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 69DDC2014BD890560EAABC53 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAC688ED38FCA6F68CE47612;
+			productRefGroup = 2D95E59B4B1314F1ECC2734E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2796A800A6780D3FFAF4393D /* Pods-schedules */,
+				2AF1967A57EFF119C8C3028B /* Pods-schedules-CSStickyHeaderFlowLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F75CD6C0716E64D9E405F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171BA855C03A32ECC5802AD7 /* Pods-schedules-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15171A4ACB78FC086296A07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBABBB5749A3E450A39EF420 /* CSStickyHeaderFlowLayout.m in Sources */,
+				1ED785FB6041EBF625844E80 /* CSStickyHeaderFlowLayoutAttributes.m in Sources */,
+				14BE2B448C91D2C8A27F3E71 /* Pods-schedules-CSStickyHeaderFlowLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		762333672C2D419F007CE2EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-schedules-CSStickyHeaderFlowLayout";
+			target = 2AF1967A57EFF119C8C3028B /* Pods-schedules-CSStickyHeaderFlowLayout */;
+			targetProxy = D96046D8A3A55A7C5C2CB791 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		547207A66C7DDB15A398CD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2562F2F9F10F2F191285DD /* Pods-schedules-CSStickyHeaderFlowLayout-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-schedules-CSStickyHeaderFlowLayout/Pods-schedules-CSStickyHeaderFlowLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5AD070188DF04065A4A2AC04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5B44959089D8743A38816B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B5B0D92F2F9B8F442919CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868E80B99D671728FA2A7723 /* Pods-schedules.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5F5BB6855F8E881FCD43DF63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F007561C95BEAAE3DB7D44 /* Pods-schedules.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D8B6ED1F0E3153F541F17C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2562F2F9F10F2F191285DD /* Pods-schedules-CSStickyHeaderFlowLayout-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-schedules-CSStickyHeaderFlowLayout/Pods-schedules-CSStickyHeaderFlowLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0208ED3B154C2D34F0AB6DB7 /* Build configuration list for PBXNativeTarget "Pods-schedules-CSStickyHeaderFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547207A66C7DDB15A398CD80 /* Debug */,
+				D8B6ED1F0E3153F541F17C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69DDC2014BD890560EAABC53 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD070188DF04065A4A2AC04 /* Debug */,
+				5B44959089D8743A38816B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F7299F88F2D8A1914CAC0F4 /* Build configuration list for PBXNativeTarget "Pods-schedules" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5BB6855F8E881FCD43DF63 /* Debug */,
+				5B5B0D92F2F9B8F442919CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BBE6C9E59B72441CE43D418 /* Project object */;
+}
