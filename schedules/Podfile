@@ -4,6 +4,9 @@
 target 'schedules' do
 
 pod "CSStickyHeaderFlowLayout"
+pod "OAStackView"
+pod "GoogleMaps"
+pod "Parse"
 
 end
 

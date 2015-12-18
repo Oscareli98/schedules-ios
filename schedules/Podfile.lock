@@ -1,10 +1,22 @@
 PODS:
+  - Bolts/Tasks (1.2.0)
   - CSStickyHeaderFlowLayout (0.2.7)
+  - GoogleMaps (1.10.1)
+  - OAStackView (0.1.0)
+  - Parse (1.7.5):
+    - Bolts/Tasks (>= 1.2.0)
 
 DEPENDENCIES:
   - CSStickyHeaderFlowLayout
+  - GoogleMaps
+  - OAStackView
+  - Parse
 
 SPEC CHECKSUMS:
+  Bolts: d176cb1e0012175589e389a9db49b85e27787576
   CSStickyHeaderFlowLayout: 739445e36fd96ab2cee9b9826a902396567fb6a5
+  GoogleMaps: ebf08677f181d9c2dcdbd1721d206f02beccc9b1
+  OAStackView: 76e64242351e2746374b9161a03021cbc19341ff
+  Parse: 7c0f115eff3e0cea3fac08d50bda47154edb8832
 
 COCOAPODS: 0.37.2
